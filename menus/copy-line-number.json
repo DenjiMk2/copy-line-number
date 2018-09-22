@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle copy-line-number",
+        "command": "copy-line-number:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "copy-line-number",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "copy-line-number:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
