@@ -1,5 +1,8 @@
 {
-  "atom-workspace": {
-    "ctrl-alt-o": "copy-line-number:toggle"
+  ".platform-win32 atom-text-editor:not([mini]), .platform-linux atom-text-editor": {
+    "ctrl-alt-c": "copy-line-number:copy"
+  },
+  ".platform-mac atom-text-editor": {
+    "ctrl-option-c": "copy-line-number:copy"
   }
 }

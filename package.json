@@ -1,14 +1,16 @@
 {
   "name": "copy-line-number",
   "main": "./lib/copy-line-number",
+  "author": "DenjiMk2",
+  "readme": "./README.md",
   "version": "0.0.0",
-  "description": "Save clipboard file name and line number.",
+  "description": "Copy file name and line number in specified format.",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "copy-line-number:copy"
   },
-  "repository": "https://github.com/atom/copy-line-number",
+  "repository": "https://github.com/DenjiMk2/copy-line-number",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -16,9 +18,9 @@
   "dependencies": {
   },
   "configSchema": {
-    "separateFormat": {
+    "format": {
       "type": "string",
-      "description": "Format to copy to clipboard. Replace to {1}=>FileName,{2}=>LineNumber",
+      "description": "Format for copy. Symbols in the format are replaced. {1}=>File name {2}=>Line number",
       "default": "{1}:{2}",
       "order": 1
     }
