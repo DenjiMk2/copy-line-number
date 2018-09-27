@@ -1,8 +1,11 @@
 {
-  ".platform-win32 atom-text-editor:not([mini]), .platform-linux atom-text-editor": {
+  ".platform-win32 atom-text-editor": {
     "ctrl-alt-c": "copy-line-number:copy"
   },
-  ".platform-mac atom-text-editor": {
-    "ctrl-option-c": "copy-line-number:copy"
+  ".platform-linux atom-text-editor": {
+    "ctrl-alt-c": "copy-line-number:copy"
+  },
+  ".platform-darwin atom-text-editor": {
+    "ctrl-cmd-c": "copy-line-number:copy"
   }
 }
