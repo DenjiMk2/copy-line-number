@@ -2,11 +2,10 @@
   "name": "copy-line-number",
   "main": "./lib/copy-line-number",
   "author": "DenjiMk2",
-  "readmeFilename":"README.md",
-  "version": "0.0.0",
+  "readmeFilename": "README.md",
+  "version": "0.1.0",
   "description": "Copy file name and line number in specified format.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "copy-line-number:copy"
   },
@@ -15,8 +14,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "configSchema": {
     "format": {
       "type": "string",
