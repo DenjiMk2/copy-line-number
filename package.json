@@ -3,7 +3,7 @@
   "main": "./lib/copy-line-number",
   "author": "DenjiMk2",
   "readmeFilename": "README.md",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Copy file name and line number in specified format.",
   "keywords": [],
   "activationCommands": {
