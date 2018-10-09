@@ -23,6 +23,6 @@ ex.
 
 | Format | Result |
 |:---|:---|
-|`{1}:{2}`|2 |
-|`Line {2} of {1}`|Line 10 of hoge.txt |
-|`{2}:{3}`| 10: hogehoge |
+|`{1}:{2}`|hoge.txt:10|
+|`Line {2} of {1}`|Line 10 of hoge.txt|
+|`{2} :{3}`|10 :hogehoge|
